@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="58" fill="#2d4a2b"/>
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#d4a537" stroke-width="2"/>
+  <!-- Lantern body -->
+  <rect x="38" y="35" width="44" height="55" rx="14" fill="#d4a537"/>
+  <rect x="38" y="35" width="44" height="55" rx="14" fill="none" stroke="#a8842a" stroke-width="1.5"/>
+  <!-- Lantern top -->
+  <rect x="48" y="28" width="24" height="8" rx="3" fill="#8b6f47"/>
+  <rect x="54" y="22" width="12" height="7" rx="2" fill="#8b6f47"/>
+  <line x1="60" y1="14" x2="60" y2="22" stroke="#8b6f47" stroke-width="3" stroke-linecap="round"/>
+  <!-- Lantern base -->
+  <rect x="44" y="88" width="32" height="6" rx="3" fill="#8b6f47"/>
+  <!-- Light glow -->
+  <circle cx="60" cy="62" r="16" fill="#fef3c7" opacity="0.8"/>
+  <circle cx="60" cy="62" r="10" fill="#fff" opacity="0.9"/>
+  <!-- Rays -->
+  <g stroke="#e8c560" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="60" y1="40" x2="60" y2="44"/>
+    <line x1="60" y1="80" x2="60" y2="84"/>
+    <line x1="44" y1="62" x2="48" y2="62"/>
+    <line x1="72" y1="62" x2="76" y2="62"/>
+  </g>
+</svg>
